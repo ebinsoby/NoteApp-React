@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/NoteApp-React/static/css/main.cb80f594.chunk.css",
-    "main.js": "/NoteApp-React/static/js/main.ab66353e.chunk.js",
-    "main.js.map": "/NoteApp-React/static/js/main.ab66353e.chunk.js.map",
-    "runtime-main.js": "/NoteApp-React/static/js/runtime-main.51201c96.js",
-    "runtime-main.js.map": "/NoteApp-React/static/js/runtime-main.51201c96.js.map",
-    "static/js/2.441dc437.chunk.js": "/NoteApp-React/static/js/2.441dc437.chunk.js",
-    "static/js/2.441dc437.chunk.js.map": "/NoteApp-React/static/js/2.441dc437.chunk.js.map",
-    "index.html": "/NoteApp-React/index.html",
-    "static/css/main.cb80f594.chunk.css.map": "/NoteApp-React/static/css/main.cb80f594.chunk.css.map",
-    "static/js/2.441dc437.chunk.js.LICENSE.txt": "/NoteApp-React/static/js/2.441dc437.chunk.js.LICENSE.txt",
-    "static/media/addButton.ebf59862.svg": "/NoteApp-React/static/media/addButton.ebf59862.svg",
-    "static/media/arrow-left-chevron.8d39acca.svg": "/NoteApp-React/static/media/arrow-left-chevron.8d39acca.svg"
+    "main.css": "/static/css/main.cb80f594.chunk.css",
+    "main.js": "/static/js/main.18bc61e4.chunk.js",
+    "main.js.map": "/static/js/main.18bc61e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1a56f836.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1a56f836.js.map",
+    "static/js/2.9757b24d.chunk.js": "/static/js/2.9757b24d.chunk.js",
+    "static/js/2.9757b24d.chunk.js.map": "/static/js/2.9757b24d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cb80f594.chunk.css.map": "/static/css/main.cb80f594.chunk.css.map",
+    "static/js/2.9757b24d.chunk.js.LICENSE.txt": "/static/js/2.9757b24d.chunk.js.LICENSE.txt",
+    "static/media/addButton.ebf59862.svg": "/static/media/addButton.ebf59862.svg",
+    "static/media/arrow-left-chevron.8d39acca.svg": "/static/media/arrow-left-chevron.8d39acca.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.51201c96.js",
-    "static/js/2.441dc437.chunk.js",
+    "static/js/runtime-main.1a56f836.js",
+    "static/js/2.9757b24d.chunk.js",
     "static/css/main.cb80f594.chunk.css",
-    "static/js/main.ab66353e.chunk.js"
+    "static/js/main.18bc61e4.chunk.js"
   ]
 }
