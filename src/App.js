@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
 } from "react-router-dom";
 
@@ -11,12 +11,12 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router >
     <div className="dark container">
       <div className="app" >
       <Header/>
-      <Route component={NotesPage} path="/NoteApp-React" exact/>
-      <Route component={NotePage} path="/note/:id"/>
+      <Route component={NotesPage} exact path= "/NoteApp-React"  />
+      <Route component={NotePage} path= "/note/:id"/>
       </div>
     </div>
     </Router>
