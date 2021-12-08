@@ -15,7 +15,7 @@ function App() {
     <div className="dark container">
       <div className="app" >
       <Header/>
-      <Route component={NotesPage} path="/" exact/>
+      <Route component={NotesPage} path="/NoteApp-React" exact/>
       <Route component={NotePage} path="/note/:id"/>
       </div>
     </div>

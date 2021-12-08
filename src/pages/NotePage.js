@@ -12,13 +12,13 @@ function NotePage({ match, history }) {
 
   let getNote = async () => {
     if (noteId === "new") return;
-    let response = await fetch(`http://localhost:5000/notes/${noteId}`);
+    let response = await fetch(`https://my-json-server.typicode.com/ebinsoby/JSON-Server/notes/${noteId}`);
     let data = await response.json();
     setNote(data);
   };
 
   let createNote = async () => {
-    await fetch(`http://localhost:5000/notes`, {
+    await fetch(`https://my-json-server.typicode.com/ebinsoby/JSON-Server/notes`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +28,7 @@ function NotePage({ match, history }) {
   };
 
   let updateNote = async () => {
-    await fetch(`http://localhost:5000/notes/${noteId}`, {
+    await fetch(`https://my-json-server.typicode.com/ebinsoby/JSON-Server/notes/${noteId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -38,14 +38,14 @@ function NotePage({ match, history }) {
   };
 
   let deleteNode = async () => {
-    await fetch(`http://localhost:5000/notes/${noteId}`, {
+    await fetch(`https://my-json-server.typicode.com/ebinsoby/JSON-Server/notes${noteId}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(note),
     });
-    history.push("/");
+    history.push("/NoteApp-React");
   };
 
   let handleSubmit = () => {
@@ -56,7 +56,7 @@ function NotePage({ match, history }) {
     } else if (noteId === "new" && note !== null){
       createNote();
     }
-    history.push("/");
+    history.push("/NoteApp-React");
   };
 
   // eslint-disable-next-line
@@ -65,7 +65,7 @@ function NotePage({ match, history }) {
     <div className="note">
       <div className="note-header">
         <h3>
-          <Link to={"/"}>
+          <Link to={"/NoteApp-React"}>
             <ArrowLeft onClick={handleSubmit} />
           </Link>
         </h3>

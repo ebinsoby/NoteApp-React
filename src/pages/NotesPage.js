@@ -11,7 +11,7 @@ const NotesPage = () => {
   }, [notes])
 
   let getNotes = async()=>{
-    let response = await fetch ("http://localhost:5000/notes");
+    let response = await fetch ("https://my-json-server.typicode.com/ebinsoby/JSON-Server/notes");
     let data = await response.json();
     setNotes(data);
   }
