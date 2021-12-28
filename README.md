@@ -5,7 +5,7 @@
 *   React hooks - useState(), useEffect()
 *   Fetch API
 *   React Router
-*   Styling - Vanila CSS
+*   Styling - **Vanila CSS**
 *   BackEnd - Fake REST API
 
 ## Screenshots
