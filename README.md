@@ -3,10 +3,15 @@
 
 *   React functional compoonents
 *   React hooks - useState(), useEffect()
-*   Fetch API
+*   Fetch APIgit merge upstream/master
 *   React Router
 *   Styling - **Vanila CSS**
 *   BackEnd - Fake REST API
+
+## Deployment
+
+https://ebinsoby.github.io/NoteApp-React/
+
 
 ## Screenshots
 
