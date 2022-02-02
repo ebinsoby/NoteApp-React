@@ -1,7 +1,7 @@
 # Note App - React 
 ## A note taking web app built with React
 
-*   React functional compoonents
+*   React functional components
 *   React hooks - useState(), useEffect()
 *   Fetch API
 *   React Router
